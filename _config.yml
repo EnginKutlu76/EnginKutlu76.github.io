@@ -1,1 +1,5 @@
-theme: minima
+theme: midnight
+minima:
+  skin: dark
+title: Engin Kutlu
+description: Unity & C# Oyun Geliştiricisi
