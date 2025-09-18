@@ -22,3 +22,5 @@ Projelerimi GitHub üzerinden inceleyebilirsiniz.
 
 - E-posta: engin@example.com  
 - GitHub: [github.com/username](https://github.com/EnginKutlu76)
+
+![Proje 1](assets/images/proje1.png){: style="max-width:400px; border:2px solid #1abc9c; border-radius:8px;" }
