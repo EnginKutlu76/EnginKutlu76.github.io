@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Engin Kutlu | Game Developer</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <meta
         name="description"
-        content="Engin Kutlu - Game Developer Portfolio. Unity, C#, C++, Android and VR development."
+        content="Engin Kutlu - Game Developer. Unity, C#, C++, Android and multiplayer game development."
     >
 
+    <title>Engin Kutlu | Game Developer</title>
+
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <header class="navbar">
-        <div class="container nav-content">
+        <div class="container nav-container">
 
-            <a href="#" class="logo">
+            <a href="#home" class="logo">
                 ENGIN<span>.</span>
             </a>
 
-            <nav>
+            <nav class="nav-links">
                 <a href="#games">Games</a>
                 <a href="#videos">Videos</a>
                 <a href="#projects">Projects</a>
@@ -49,28 +69,27 @@
 
     <main>
 
-        <section class="hero">
-
+        <!-- Hero -->
+        <section id="home" class="hero">
             <div class="container hero-content">
 
-                <p class="hero-label">
+                <p class="eyebrow">
                     GAME DEVELOPER
                 </p>
 
                 <h1>
-                    I BUILD
+                    I BUILD<br>
                     <span>GAMES.</span>
                 </h1>
 
                 <p class="hero-description">
-                    I'm Engin, a game developer focused on building
-                    interactive experiences with Unity, C#, C++,
-                    Android and VR technologies.
+                    Game developer focused on creating interactive experiences
+                    with Unity, C#, C++, Android and multiplayer systems.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#games" class="button primary">
+                    <a href="#games" class="button button-primary">
                         VIEW MY WORK
                     </a>
 
@@ -78,7 +97,7 @@
                         href="https://github.com/EnginKutlu76"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="button secondary"
+                        class="button button-secondary"
                     >
                         GITHUB ↗
                     </a>
@@ -86,42 +105,56 @@
                 </div>
 
             </div>
-
         </section>
 
 
+        <!-- Games -->
         <section id="games" class="section">
-
             <div class="container">
 
-                <div class="section-heading">
-                    <p>01</p>
-                    <h2>RELEASED GAMES</h2>
+                <div class="section-header">
+                    <div>
+                        <p class="section-number">01</p>
+                        <h2>RELEASED GAMES</h2>
+                    </div>
+
+                    <p class="section-description">
+                        Games developed and published by me.
+                    </p>
                 </div>
+
 
                 <div class="games-grid">
 
+                    <!-- Game 01 -->
                     <article class="game-card">
 
-                        <div class="game-image game-placeholder">
-                            <span>GAME 01</span>
+                        <div class="game-image">
+                            <div class="game-placeholder">
+                                GAME 01
+                            </div>
                         </div>
 
-                        <div class="game-info">
+                        <div class="game-content">
 
-                            <p class="game-platform">
-                                UNITY • ANDROID
+                            <p class="game-number">
+                                01
                             </p>
 
-                            <h3>GAME NAME</h3>
+                            <h3>
+                                GAME NAME
+                            </h3>
 
                             <p>
-                                Mobile game developed with Unity and C#.
-                                Play Store information will be added here.
+                                Mobile game developed with Unity.
                             </p>
 
-                            <div class="card-links">
-                                <a href="#" class="project-link">
+                            <div class="game-links">
+
+                                <a
+                                    href="#"
+                                    class="text-link"
+                                >
                                     GOOGLE PLAY ↗
                                 </a>
 
@@ -129,10 +162,11 @@
                                     href="https://github.com/EnginKutlu76"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    class="project-link muted-link"
+                                    class="text-link"
                                 >
                                     GITHUB ↗
                                 </a>
+
                             </div>
 
                         </div>
@@ -140,27 +174,35 @@
                     </article>
 
 
+                    <!-- Game 02 -->
                     <article class="game-card">
 
-                        <div class="game-image game-placeholder">
-                            <span>GAME 02</span>
+                        <div class="game-image">
+                            <div class="game-placeholder">
+                                GAME 02
+                            </div>
                         </div>
 
-                        <div class="game-info">
+                        <div class="game-content">
 
-                            <p class="game-platform">
-                                UNITY • ANDROID
+                            <p class="game-number">
+                                02
                             </p>
 
-                            <h3>GAME NAME</h3>
+                            <h3>
+                                GAME NAME
+                            </h3>
 
                             <p>
-                                Mobile game developed with Unity and C#.
-                                Play Store information will be added here.
+                                Mobile game developed with Unity.
                             </p>
 
-                            <div class="card-links">
-                                <a href="#" class="project-link">
+                            <div class="game-links">
+
+                                <a
+                                    href="#"
+                                    class="text-link"
+                                >
                                     GOOGLE PLAY ↗
                                 </a>
 
@@ -168,10 +210,11 @@
                                     href="https://github.com/EnginKutlu76"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    class="project-link muted-link"
+                                    class="text-link"
                                 >
                                     GITHUB ↗
                                 </a>
+
                             </div>
 
                         </div>
@@ -179,27 +222,35 @@
                     </article>
 
 
+                    <!-- Game 03 -->
                     <article class="game-card">
 
-                        <div class="game-image game-placeholder">
-                            <span>GAME 03</span>
+                        <div class="game-image">
+                            <div class="game-placeholder">
+                                GAME 03
+                            </div>
                         </div>
 
-                        <div class="game-info">
+                        <div class="game-content">
 
-                            <p class="game-platform">
-                                UNITY • ANDROID
+                            <p class="game-number">
+                                03
                             </p>
 
-                            <h3>GAME NAME</h3>
+                            <h3>
+                                GAME NAME
+                            </h3>
 
                             <p>
-                                Mobile game developed with Unity and C#.
-                                Play Store information will be added here.
+                                Android game developed with C++.
                             </p>
 
-                            <div class="card-links">
-                                <a href="#" class="project-link">
+                            <div class="game-links">
+
+                                <a
+                                    href="#"
+                                    class="text-link"
+                                >
                                     GOOGLE PLAY ↗
                                 </a>
 
@@ -207,10 +258,11 @@
                                     href="https://github.com/EnginKutlu76"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    class="project-link muted-link"
+                                    class="text-link"
                                 >
                                     GITHUB ↗
                                 </a>
+
                             </div>
 
                         </div>
@@ -220,20 +272,26 @@
                 </div>
 
             </div>
-
         </section>
 
 
-        <section id="videos" class="section">
-
+        <!-- Videos -->
+        <section id="videos" class="section section-dark">
             <div class="container">
 
-                <div class="section-heading">
-                    <p>02</p>
-                    <h2>GAMEPLAY VIDEOS</h2>
+                <div class="section-header">
+                    <div>
+                        <p class="section-number">02</p>
+                        <h2>GAMEPLAY VIDEOS</h2>
+                    </div>
+
+                    <p class="section-description">
+                        Gameplay footage from my projects.
+                    </p>
                 </div>
 
-                <div class="video-grid">
+
+                <div class="videos-grid">
 
                     <a
                         href="https://www.youtube.com/watch?v=hDfYNAGtP8k"
@@ -242,11 +300,12 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>01</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
@@ -258,11 +317,12 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>02</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
@@ -274,11 +334,12 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>03</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
@@ -290,11 +351,12 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>04</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
@@ -306,11 +368,12 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>05</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
@@ -322,51 +385,62 @@
                         class="video-card"
                     >
                         <div class="video-thumbnail">
-                            <span>▶</span>
+                            <div class="play-button">▶</div>
                         </div>
-                        <div class="video-title">
+
+                        <div class="video-info">
                             <span>06</span>
-                            GAMEPLAY VIDEO
+                            <h3>GAMEPLAY VIDEO</h3>
                         </div>
                     </a>
 
                 </div>
 
             </div>
-
         </section>
 
 
+        <!-- Projects -->
         <section id="projects" class="section">
-
             <div class="container">
 
-                <div class="section-heading">
-                    <p>03</p>
-                    <h2>SELECTED PROJECTS</h2>
+                <div class="section-header">
+                    <div>
+                        <p class="section-number">03</p>
+                        <h2>SELECTED PROJECTS</h2>
+                    </div>
+
+                    <p class="section-description">
+                        Projects and game development work.
+                    </p>
                 </div>
 
-                <div class="project-list">
 
-                    <article class="project-row">
+                <div class="projects-list">
+
+                    <!-- Project 01 -->
+                    <article class="project-item">
 
                         <div class="project-number">
                             01
                         </div>
 
-                        <div class="project-content">
+                        <div class="project-main">
 
-                            <p>UNITY • C# • MULTIPLAYER</p>
+                            <p class="project-category">
+                                UNITY · C# · MULTIPLAYER
+                            </p>
 
                             <h3>
                                 WAR TRACK ARENA
                             </h3>
 
-                            <span>
-                                Multiplayer tank game project focused on
-                                networked gameplay and real-time player
-                                interaction.
-                            </span>
+                            <p>
+                                A multiplayer 2D tank game developed with
+                                Unity and C#, featuring 1v1 gameplay,
+                                customizable tank parts and interactive
+                                gameplay systems.
+                            </p>
 
                         </div>
 
@@ -374,63 +448,37 @@
                             href="https://github.com/EnginKutlu76"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-arrow"
+                            class="project-link"
                         >
-                            ↗
+                            GITHUB ↗
                         </a>
 
                     </article>
 
 
-                    <article class="project-row">
+                    <!-- Project 02 -->
+                    <article class="project-item">
 
                         <div class="project-number">
                             02
                         </div>
 
-                        <div class="project-content">
+                        <div class="project-main">
 
-                            <p>UNITY • VR • MULTIPLAYER</p>
-
-                            <h3>
-                                VR EDUCATION PLATFORM
-                            </h3>
-
-                            <span>
-                                Multiplayer VR classroom system focused on
-                                interactive education and telemetry.
-                            </span>
-
-                        </div>
-
-                        <a
-                            href="#"
-                            class="project-arrow"
-                        >
-                            ↗
-                        </a>
-
-                    </article>
-
-
-                    <article class="project-row">
-
-                        <div class="project-number">
-                            03
-                        </div>
-
-                        <div class="project-content">
-
-                            <p>GAME DEVELOPMENT</p>
+                            <p class="project-category">
+                                UNITY · C#
+                            </p>
 
                             <h3>
-                                OTHER PROJECTS
+                                PROJECTION GAME
                             </h3>
 
-                            <span>
-                                Additional game development projects,
-                                prototypes and contributions.
-                            </span>
+                            <p>
+                                An interactive projection-based game
+                                developed using Unity and C#, focused on
+                                real-time player interaction and projected
+                                gameplay.
+                            </p>
 
                         </div>
 
@@ -438,9 +486,9 @@
                             href="https://github.com/EnginKutlu76"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="project-arrow"
+                            class="project-link"
                         >
-                            ↗
+                            GITHUB ↗
                         </a>
 
                     </article>
@@ -448,53 +496,44 @@
                 </div>
 
             </div>
-
         </section>
 
 
-        <section id="github" class="section">
-
+        <!-- GitHub -->
+        <section id="github" class="section section-dark">
             <div class="container">
 
-                <div class="section-heading">
-                    <p>04</p>
-                    <h2>GITHUB</h2>
-                </div>
+                <div class="section-header">
+                    <div>
+                        <p class="section-number">04</p>
+                        <h2>GITHUB</h2>
+                    </div>
 
-                <div class="github-intro">
-
-                    <p>
-                        Selected repositories, development work and
-                        open-source projects.
+                    <p class="section-description">
+                        Source code and development projects.
                     </p>
-
-                    <a
-                        href="https://github.com/EnginKutlu76"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="button secondary"
-                    >
-                        VIEW GITHUB PROFILE ↗
-                    </a>
-
                 </div>
 
 
-                <div class="repo-grid">
+                <div class="github-grid">
 
                     <a
                         href="https://github.com/EnginKutlu76"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="repo-card"
+                        class="github-card"
                     >
-                        <span>REPOSITORY</span>
-                        <h3>VIEW PINNED PROJECTS</h3>
-                        <p>
-                            Explore my selected GitHub repositories
-                            and development projects.
-                        </p>
-                        <strong>OPEN GITHUB →</strong>
+                        <span class="github-label">
+                            GITHUB PROFILE
+                        </span>
+
+                        <h3>
+                            @EnginKutlu76
+                        </h3>
+
+                        <span class="github-arrow">
+                            ↗
+                        </span>
                     </a>
 
 
@@ -502,126 +541,131 @@
                         href="https://github.com/EnginKutlu76"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="repo-card"
+                        class="github-card"
                     >
-                        <span>CODE</span>
-                        <h3>GAME DEVELOPMENT</h3>
-                        <p>
-                            Unity, C#, C++, Android and other
-                            development work.
-                        </p>
-                        <strong>VIEW REPOSITORIES →</strong>
+                        <span class="github-label">
+                            OPEN SOURCE
+                        </span>
+
+                        <h3>
+                            VIEW MY REPOSITORIES
+                        </h3>
+
+                        <span class="github-arrow">
+                            ↗
+                        </span>
                     </a>
 
                 </div>
 
             </div>
-
         </section>
 
 
+        <!-- About -->
         <section id="about" class="section">
+            <div class="container">
 
-            <div class="container about-grid">
-
-                <div class="section-heading">
-                    <p>05</p>
-                    <h2>ABOUT ME</h2>
+                <div class="section-header">
+                    <div>
+                        <p class="section-number">05</p>
+                        <h2>ABOUT ME</h2>
+                    </div>
                 </div>
 
-                <div class="about-content">
 
-                    <p class="about-lead">
-                        I'm Engin Kutlu, a game developer focused on
-                        creating interactive experiences and game systems.
-                    </p>
+                <div class="about-grid">
 
-                    <p>
-                        My main development environment is Unity and C#.
-                        I also work with C++, Android development,
-                        multiplayer systems and VR technologies.
-                    </p>
+                    <div class="about-text">
 
-                    <p>
-                        My portfolio includes released mobile games,
-                        multiplayer projects, gameplay prototypes and
-                        larger interactive systems.
-                    </p>
+                        <p class="about-large">
+                            I am a game developer focused on building
+                            interactive experiences and gameplay systems.
+                        </p>
 
-                    <div class="skill-tags">
+                        <p>
+                            My main development experience is centered around
+                            Unity and C#, with additional experience in C++,
+                            Android development and multiplayer game systems.
+                        </p>
+
+                        <p>
+                            I enjoy working on gameplay mechanics, systems,
+                            tools and complete game projects from development
+                            to release.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skills">
 
                         <span>UNITY</span>
                         <span>C#</span>
                         <span>C++</span>
                         <span>ANDROID</span>
-                        <span>VR</span>
                         <span>MULTIPLAYER</span>
                         <span>GIT</span>
-                        <span>FIREBASE</span>
 
                     </div>
 
                 </div>
 
             </div>
-
         </section>
 
 
-        <section id="resume" class="resume-section">
-
-            <div class="container resume-content">
+        <!-- Resume -->
+        <section class="section resume-section">
+            <div class="container resume-container">
 
                 <div>
-
-                    <p class="hero-label">
-                        06 • RESUME
+                    <p class="section-number">
+                        06
                     </p>
 
                     <h2>
-                        WANT TO KNOW<br>
-                        <span>MORE?</span>
+                        RESUME
                     </h2>
 
+                    <p>
+                        More information about my experience,
+                        skills and projects.
+                    </p>
                 </div>
 
-                <div class="resume-actions">
-
-                    <a href="assets/Engin-Kutlu-CV.pdf" class="button primary">
-                        VIEW CV
-                    </a>
-
-                    <a href="assets/Engin-Kutlu-CV.pdf" download class="button secondary">
-                        DOWNLOAD CV
-                    </a>
-
-                </div>
+                <a
+                    href="assets/Engin-Kutlu-CV.pdf"
+                    target="_blank"
+                    class="button button-primary"
+                >
+                    VIEW CV ↗
+                </a>
 
             </div>
-
         </section>
 
 
-        <section id="contact" class="contact-section">
+        <!-- Contact -->
+        <section id="contact" class="section section-contact">
+            <div class="container">
 
-            <div class="container contact-content">
-
-                <p class="hero-label">
-                    07 • CONTACT
+                <p class="section-number">
+                    07
                 </p>
 
                 <h2>
-                    LET'S BUILD
-                    <br>
+                    LET'S BUILD<br>
                     <span>SOMETHING.</span>
                 </h2>
 
                 <a
                     href="mailto:tengrigames01@gmail.com"
-                    class="button primary"
+                    class="contact-email"
                 >
                     tengrigames01@gmail.com
                 </a>
+
 
                 <div class="social-links">
 
@@ -630,7 +674,7 @@
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        GitHub ↗
+                        GITHUB ↗
                     </a>
 
                     <a
@@ -638,7 +682,7 @@
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        LinkedIn ↗
+                        LINKEDIN ↗
                     </a>
 
                     <a
@@ -646,29 +690,29 @@
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Itch.io ↗
+                        ITCH.IO ↗
                     </a>
 
                 </div>
 
             </div>
-
         </section>
 
     </main>
 
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
 
-        <div class="container footer-content">
+        <div class="container footer-container">
 
-            <p>
+            <span>
                 © 2026 Engin Kutlu
-            </p>
+            </span>
 
-            <div>
-                Unity • C# • C++ • Game Development
-            </div>
+            <span>
+                GAME DEVELOPER
+            </span>
 
         </div>
 
@@ -678,5 +722,4 @@
     <script src="script.js"></script>
 
 </body>
-
 </html>
